@@ -12,6 +12,11 @@ Server and system maintenance tools.
 
 Test: logrotate --force /etc/logrotate.d/mysqlbackup
 
+### TODO
+Working on using Percona xtrabackup for incremental hot backups without locking the tables.
+See: https://www.digitalocean.com/community/tutorials/how-to-configure-mysql-backups-with-percona-xtrabackup-on-ubuntu-16-04
+(and other documentation)
+
 ### Improvements
 This could be massively improved by creating a backup user on the filesystem and in the mysql database, and using that user instead.
 
